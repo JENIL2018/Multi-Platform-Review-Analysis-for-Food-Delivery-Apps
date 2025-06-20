@@ -1,0 +1,158 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.py,cover
+*.cover
+*.mo
+*.pot
+
+# Cython debug symbols
+cython_debug/
+
+# C extensions
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+.hypothesis/
+.pytest_cache/
+
+# PyInstaller
+.Python
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.condaenv/
+dwproj/
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# PEP 582 (Pyflow / PDM)
+__pypackages__/
+
+# Requirements management
+# If you're using pipenv/poetry/pdm and don't want lock files:
+# Pipfile.lock
+# poetry.lock
+# pdm.lock
+.pdm.toml
+
+# ===============================
+# Project-specific
+# ===============================
+
+# Logs — KEEP logs but do NOT ignore
+# (so no `logs/*` rule here)
+
+# ===============================
+# IDEs and Editors
+# ===============================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# PyCharm
+# (Use JetBrains global .gitignore to extend this if needed)
+
+# ===============================
+# Jupyter & IPython
+# ===============================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ===============================
+# R and Quarto
+# ===============================
+.Rproj.user
+.Rhistory
+/.quarto/
+_*.local
+
+# ===============================
+# Web / Docs / Static
+# ===============================
+.webassets-cache
+docs/_build/
+_site/
+site/
+
+# ===============================
+# OS-specific
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ===============================
+# Others
+# ===============================
+.dmypy.json
+.pyre/
+.pytype/
+.luarc.json
+
+# SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Scrapy
+.scrapy
+
+# mkdocs
+.pybuilder/
+target/
